@@ -1,8 +1,9 @@
 import unittest
-import requests
 import sys
-sys.path.append('/Users/tnielsen/dev/travis-ci-learning')
 from memegen import creatememe
+
+pwd = myCmd = os.popen('pwd').read()
+sys.path.append(pwd)
 
 def validate_url():
     meme = creatememe('this should', 'work with a test')
