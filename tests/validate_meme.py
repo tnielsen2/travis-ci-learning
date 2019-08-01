@@ -1,10 +1,8 @@
 import unittest
-import sys
-import os
 from memegen import creatememe
 
-pwd = myCmd = os.popen('pwd').read()
-sys.path.append(pwd)
+#pwd = myCmd = os.popen('pwd').read()
+#sys.path.append(pwd)
 
 def validate_url():
     meme = creatememe('this should', 'work with a test')
