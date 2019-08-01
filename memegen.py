@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 
 top = 'This is only'
 bottom = 'a test'
@@ -23,7 +24,6 @@ def creatememe(top, bottom):
     except Exception as e:
         raise Exception('Error requesting the service.')
     try:
-        print(type(res))
         dict_res = json.loads(res.text)
     except:
         msg = 'Unexpected response format: (%s)' % res.text
