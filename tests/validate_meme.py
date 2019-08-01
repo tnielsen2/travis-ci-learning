@@ -1,5 +1,5 @@
 import unittest
-
+import requests
 import sys
 sys.path.append('/Users/tnielsen/dev/travis-ci-learning')
 from memegen import creatememe
