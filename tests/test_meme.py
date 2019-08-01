@@ -1,5 +1,4 @@
-import unittest
-from memegen import creatememe
+from my_project.memegen import creatememe
 
 #pwd = myCmd = os.popen('pwd').read()
 #sys.path.append(pwd)
