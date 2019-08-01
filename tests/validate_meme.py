@@ -9,7 +9,6 @@ def validate_url():
     print(meme)
     assert 'img' in meme
 
-def testassert()
+def testassert():
     string = 'this is only a test'
     assert 'test' in string
-    
