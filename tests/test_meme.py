@@ -1,13 +1,8 @@
-import my_project
-
+from my_project import memegen
 #pwd = myCmd = os.popen('pwd').read()
 #sys.path.append(pwd)
 
-def validate_url():
-    meme = my_project.creatememe('this should', 'work with a test')
+def test_url():
+    meme = memegen.creatememe('this should', 'work with a test')
     print(meme)
     assert 'img' in meme
-
-def testassert():
-    string = 'this is only a test'
-    assert 'test' in string
