@@ -1,5 +1,6 @@
 import unittest
 import sys
+import os
 from memegen import creatememe
 
 pwd = myCmd = os.popen('pwd').read()
