@@ -1,9 +1,3 @@
-import sys
-import os
-
-currentDirectory = os.getcwd()
-sys.path.insert(1, currentDirectory)
-
 from my_project import memegen
 
 def test_url():
